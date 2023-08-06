@@ -10,7 +10,7 @@ export default function App() {
 
   if (!fonteCarregada) {
     return <View />
-  }
+  };
 
   return (
     <SafeAreaView>
@@ -18,4 +18,4 @@ export default function App() {
       <Cesta />
     </SafeAreaView>
   );
-}
+};
